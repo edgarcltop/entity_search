@@ -1,7 +1,4 @@
 import { pbt } from "../../src/index";
-import * as file from "./added-file";
-
-import { hello } from "./test";
 
 const proto = `
   syntax = "proto3";

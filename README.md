@@ -9,6 +9,8 @@
 > [!WARNING]
 > Proof of concept, not production ready. See [Limitations](#limitations) below for more details.
 
+<img src="./screenshot.png" width="400px" alt="Screenshot" style="border: 1px solid #eee;">
+
 ## Usage
 
 First, install the package.
