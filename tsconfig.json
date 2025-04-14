@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "lib": ["ES2024"],
+    "types": ["node"],
+    "target": "ES2024",
+    "allowJs": false,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

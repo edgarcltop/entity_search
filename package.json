@@ -1,0 +1,15 @@
+{
+  "name": "protobuf-ts-types",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "author": "nathanhleung",
+  "license": "Apache-2.0",
+  "description": "Zero-codegen `type` inference from protobuf `message`s in TypeScript.",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "type-fest": "^4.39.1"
+  }
+}
