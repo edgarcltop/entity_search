@@ -11,6 +11,22 @@
 
 <img src="./screenshot.png" width="400px" alt="Screenshot" style="border: 1px solid #eee;">
 
+## How it Works
+
+In short, aggressive use of TypeScript's [template literal types](https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html). Annotated example from the source:
+
+```ts
+// Pass the proto string you want to infer `message` names from as a generic parameter
+type MessageNames<Proto extends string> =
+  // Infer `message` parts using template literal type
+  WrapWithNewlines<Proto> extends `${string}${Whitespace}message${Whitespace}${infer MessageName}${OptionalWhitespace}{${string}}${infer Rest}`
+    ? // Recursively infer remaining message names
+      [MessageName, ...MessageNames<Rest>]
+    : [];
+```
+
+See more in [`src/proto.ts`](./src/proto.ts).
+
 ## Usage
 
 First, install the package.
