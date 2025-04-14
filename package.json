@@ -1,10 +1,29 @@
 {
   "name": "protobuf-ts-types",
-  "version": "0.0.1",
-  "main": "src/index.ts",
   "author": "nathanhleung",
+  "version": "0.0.1",
+  "description": "Zero-codegen TypeScript `type` inference from protobuf `message`s",
+  "keywords": [
+    "protobuf",
+    "protobufjs",
+    "protobuf-es",
+    "proto",
+    "buf",
+    "typescript",
+    "type",
+    "inference",
+    "codegen",
+    "grpc",
+    "grpc-web",
+    "connect"
+  ],
+  "main": "src/index.ts",
+  "homepage": "https://github.com/nathanhleung/protobuf-ts-types#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanhleung/protobuf-ts-types.git"
+  },
   "license": "Apache-2.0",
-  "description": "Zero-codegen `type` inference from protobuf `message`s in TypeScript.",
   "devDependencies": {
     "@types/node": "^22.14.1",
     "typescript": "^5.8.3"
