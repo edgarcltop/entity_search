@@ -134,7 +134,7 @@ greetGroup({
 
 * If not using inline (i.e., literals in TypeScript) proto `string`s `as const`, probably requires a [`ts-patch`](https://github.com/nonara/ts-patch) compiler patch to import `.proto` files until https://github.com/microsoft/TypeScript/issues/42219 is resolved
 * `service`s and `rpc`s are not supported (only `message`s)
-* `oneof` fields are not supported
+* `oneof` and `map` fields are not supported
 * `import`s are not supported (for now, concatenate)
 
 ## API
