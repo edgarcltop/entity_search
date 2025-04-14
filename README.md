@@ -1,6 +1,6 @@
 # protobuf-ts-types
 
-> Zero-codegen TypeScript `type` inference from protobuf `message`s.
+> Zero-codegen, no-compile TypeScript `type` inference from protobuf `message`s.
 
 `protobuf-ts-types` lets you define language-agnostic `message` types in `proto` format, then infers TypeScript types from them with no additional codegen.
 
