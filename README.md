@@ -1,7 +1,5 @@
 # Entity Search
 
-> Zero-codegen, no-compile TypeScript `type` inference from protobuf `message`s.
-
 `entity-ts-types` lets you define language-agnostic `message` types in `entity` format, then infers TypeScript types from them with no additional codegen.
 > Proof of concept
 
