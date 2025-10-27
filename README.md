@@ -11,7 +11,7 @@ In short, aggressive use of TypeScript'sAnnotated example from the source:
 
 ```ts
 // Pass the proto string you want to infer `message` names from as a generic parameter
-type MessageNames<Proto extends string> =
+type MessageNames<Entity extends string> =
   // Infer `message` parts using template literal type
   WrapWithNewlines<Proto> extends `${string}${Whitespace}message${Whitespace}${infer MessageName}${OptionalWhitespace}{${string}}${infer Rest}`
     ? // Recursively infer remaining message names
